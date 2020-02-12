@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+/* Your code starts here! */
 nav a{
 	display:inline-block;
 	width:10%;
@@ -76,10 +79,32 @@ nav a{
 nav img{
 	margin-left: 60px;
 }
-
-header{
-	/* display:inline-block;
-	width:10%; */
+.main-splash{
+	display:inline-block;	
+	box-sizing: border-box; /*also to get the line use horizontal rule*/
+	width: 60%;
+	height: 450px;
+	vertical-align: top;
+	padding: 50px;
+}
+.main-splash *{
+	display:block;
+	margin: 10px;
+	
+}
+.main-splash h1{
+	font-size: 100px;
+	margin: auto;
+	width: 330px;
+	text-align: center;
+	/* box-sizing: border-box; */
 }
 
-/* Your code starts here! */
+.main-splash-img{
+	box-sizing: border-box;
+	display:inline-block;
+	padding: 50px;
+}
+.firstimage{
+	width: 450px;
+}
