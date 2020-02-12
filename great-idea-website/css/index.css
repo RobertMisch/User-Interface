@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px grey solid;
+	/* border: 1px grey solid; */
 }
 
 html, body {
